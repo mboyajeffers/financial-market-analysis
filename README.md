@@ -1,5 +1,11 @@
 # Financial Market Analysis
 
+![Reports](https://img.shields.io/badge/reports-23_PDFs-blue)
+![Data Points](https://img.shields.io/badge/data_points-4.3M%2B-green)
+![Industries](https://img.shields.io/badge/industries-8-orange)
+![Cadences](https://img.shields.io/badge/cadences-weekly_|_monthly_|_quarterly-purple)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 Multi-industry intelligence reports built from **4.3M+ data points** across 8 verticals — delivered at weekly, monthly, and quarterly cadences.
 
 ## What This Is
