@@ -1,115 +1,163 @@
 # Financial Market Analysis
 
-![Reports](https://img.shields.io/badge/reports-23_PDFs-blue)
+![Reports](https://img.shields.io/badge/reports-33_PDFs-blue)
 ![Data Points](https://img.shields.io/badge/data_points-4.3M%2B-green)
-![Industries](https://img.shields.io/badge/industries-8-orange)
+![Industries](https://img.shields.io/badge/industries-4_verticals-orange)
 ![Cadences](https://img.shields.io/badge/cadences-weekly_|_monthly_|_quarterly-purple)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-Multi-industry intelligence reports built from **4.3M+ data points** across 8 verticals — delivered at weekly, monthly, and quarterly cadences.
+Automated intelligence reports built from **4.3M+ data points** across finance, crypto, energy, and sports — delivered at weekly, monthly, and quarterly cadences. Every metric traces back to a verifiable public data source.
 
-## What This Is
-
-23 automated intelligence reports covering finance, brokerage, crypto, gaming, sports betting, weather, solar energy, and regulatory compliance. Every metric in every report traces back to a verifiable public data source. No synthetic data. No simulated results.
+---
 
 ## Report Catalog
 
-### Weekly Intelligence (9 reports)
+### Recurring Intelligence (23 reports)
 
-| # | Report | Data Source | Key Metrics |
-|---|--------|-------------|-------------|
-| 01 | Finance Weekly Intelligence | FRED (St. Louis Fed) | GDP growth, unemployment, CPI, Fed funds rate, yield curve |
-| 02 | Brokerage Trading Performance | Yahoo Finance | Portfolio returns, sector rotation, volume trends, RSI signals |
-| 03 | Crypto Market Intelligence | CoinGecko | Market cap changes, dominance shifts, volume spikes, volatility |
-| 04 | Gaming Industry Metrics | Steam + SteamSpy | Player counts, ownership trends, revenue estimates, genre analysis |
-| 05 | Sports Weekend Recap | ESPN | League standings, win streaks, conference rankings across NFL/NBA/MLB/NHL |
-| 06 | Weather Climate Summary | Open-Meteo | Temperature anomalies, precipitation patterns, wind trends across 30 US cities |
-| 07 | Solar Generation Report | NREL | Generation capacity, efficiency metrics, economic viability by region |
-| 08 | Compliance Filing Monitor | SEC EDGAR | Filing volumes, XBRL fact counts, sector filing patterns |
-| 10 | Executive Summary | All sources | Cross-vertical KPI rollup, trend highlights, risk flags |
+| Cadence | Count | Verticals |
+|---------|-------|-----------|
+| **Weekly** | 9 | Finance, Brokerage, Crypto, Gaming, Sports, Weather, Solar, Compliance, Executive |
+| **Monthly** | 9 | Same verticals — month-over-month trend analysis |
+| **Quarterly** | 5 | Financial Markets, Digital Economy, Energy & Climate, Sports & Compliance, Executive Review |
 
-### Monthly Reviews (9 reports)
+### Enterprise Showcase (10 reports)
 
-Month-over-month trend analysis with deeper statistical context:
+Branded reports generated for fictional enterprise clients — demonstrating production report quality:
 
-| # | Report | Focus |
-|---|--------|-------|
-| 01 | Finance Monthly Review | MoM macro shifts, FRED series trend analysis |
-| 02 | Brokerage Monthly Review | 30-day performance attribution, sector rebalancing signals |
-| 03 | Crypto Monthly Review | Monthly market cap changes, correlation with macro indicators |
-| 04 | Gaming Monthly Review | Player retention trends, new release impact analysis |
-| 05 | Sports Monthly Review | Season progression, playoff probability shifts |
-| 06 | Weather Monthly Review | Monthly climate patterns vs 10-year normals |
-| 07 | Solar Monthly Review | Seasonal generation variance, capacity utilization |
-| 08 | Compliance Monthly Review | Filing cadence analysis, material filing alerts |
-| 09 | Executive Monthly Summary | Cross-vertical monthly rollup with MoM deltas |
+| Client | Vertical | Reports |
+|--------|----------|---------|
+| **Apex Capital Advisors** | Finance | [Quarterly](showcase/finance/Apex_Capital_Q3_2025_Comprehensive_Analysis.pdf) · [Monthly](showcase/finance/Apex_Capital_Monthly_Portfolio_Review_2025-11.pdf) · [Weekly](showcase/finance/Apex_Capital_Weekly_Market_Pulse_2025-11-21.pdf) |
+| **Meridian Digital Assets** | Crypto | [Quarterly](showcase/crypto/Meridian_Crypto_Q3_2025_Portfolio_Analysis.pdf) · [Monthly](showcase/crypto/Meridian_Crypto_Monthly_Review_2025-11.pdf) · [Weekly](showcase/crypto/Meridian_Crypto_Weekly_Snapshot_2025-11-21.pdf) |
+| **Sentinel Energy Partners** | Energy | [Monthly](showcase/energy/Sentinel_Energy_Monthly_Production_2025-11.pdf) |
+| **Baseline Sports Analytics** | Sports | [Weekly](showcase/sports/Baseline_Sports_Weekly_Intelligence_2025-11-21.pdf) |
+| **Platform Overview** | All | [Showcase Index](showcase/Enterprise_Showcase_Index.pdf) · [Platform Capabilities](showcase/Data_Platform_Capabilities.pdf) |
 
-### Quarterly Reviews (5 reports)
+---
 
-Strategic analysis combining related verticals:
+## Sample Report Pages
 
-| # | Report | Coverage |
-|---|--------|----------|
-| 01 | Financial Markets Q4 2025 | Finance + Brokerage: macro backdrop, equity performance, yield dynamics |
-| 02 | Digital Economy Q4 2025 | Crypto + Gaming + Ecommerce: digital asset trends, platform economics |
-| 03 | Energy & Climate Q4 2025 | Weather + Solar + Oil & Gas: seasonal patterns, generation economics |
-| 04 | Sports & Compliance Q4 2025 | Betting + Compliance: season results, regulatory filing trends |
-| 05 | Executive Review Q4 2025 | All verticals: QoQ trends, YoY comparisons, strategic outlook |
+<table>
+<tr>
+<td align="center"><strong>Finance</strong></td>
+<td align="center"><strong>Crypto</strong></td>
+<td align="center"><strong>Energy</strong></td>
+<td align="center"><strong>Sports</strong></td>
+</tr>
+<tr>
+<td><img src="images/finance-1.png" width="200"/></td>
+<td><img src="images/crypto-1.png" width="200"/></td>
+<td><img src="images/energy-1.png" width="200"/></td>
+<td><img src="images/sports-1.png" width="200"/></td>
+</tr>
+<tr>
+<td><img src="images/finance-2.png" width="200"/></td>
+<td><img src="images/crypto-2.png" width="200"/></td>
+<td><img src="images/energy-2.png" width="200"/></td>
+<td><img src="images/sports-2.png" width="200"/></td>
+</tr>
+<tr>
+<td><img src="images/finance-3.png" width="200"/></td>
+<td><img src="images/crypto-3.png" width="200"/></td>
+<td><img src="images/energy-3.png" width="200"/></td>
+<td><img src="images/sports-3.png" width="200"/></td>
+</tr>
+</table>
 
-## Data Foundation
+---
+
+## Report Generators
+
+Each vertical has a standalone Python generator that pulls live data from public APIs and produces a branded PDF:
+
+| Generator | Data Source | What It Produces |
+|-----------|------------|-----------------|
+| [`generate_finance_report.py`](generators/generate_finance_report.py) | FRED + Yahoo Finance | Macro analysis, portfolio performance, risk metrics (Sharpe, beta, alpha, max drawdown) |
+| [`generate_crypto_report.py`](generators/generate_crypto_report.py) | CoinGecko | Portfolio KPIs (VaR, Sortino, HHI concentration), top-20 market data |
+| [`generate_energy_report.py`](generators/generate_energy_report.py) | EIA API + Yahoo Finance | Crude/gas production trends, WTI pricing, revenue estimates |
+| [`generate_sports_report.py`](generators/generate_sports_report.py) | ESPN | NFL standings, Pythagorean win analysis, conference breakdowns |
+
+### Running a Generator
+
+```bash
+pip install weasyprint
+python generators/generate_finance_report.py
+```
+
+Each generator fetches live data, computes KPIs, and outputs a branded PDF to `output/`. No API keys required (all public endpoints).
+
+The shared [`report_template.py`](generators/report_template.py) provides consistent styling — KPI grids, risk badges, methodology sections, and industry-specific color schemes.
+
+---
+
+## Services
+
+Automated analytics reports available across four verticals:
+
+### Crypto Portfolio Analytics
+Portfolio performance, risk metrics (VaR, Sharpe, Sortino), allocation analysis, volume anomaly detection.
+
+| Cadence | Starter | Pro | Enterprise |
+|---------|---------|-----|------------|
+| Weekly | $250 | $500 | $1,200 |
+| Monthly | $500 | $1,500 | $3,500 |
+| Quarterly | $1,200 | $3,500 | $8,000 |
+
+### Financial Analytics
+Macro indicators (FRED), equity performance (Yahoo Finance), risk decomposition, sector analysis.
+
+| Cadence | Starter | Pro | Enterprise |
+|---------|---------|-----|------------|
+| Weekly | $200 | $400 | $1,000 |
+| Monthly | $400 | $1,200 | $3,000 |
+| Quarterly | $1,000 | $3,000 | $7,000 |
+
+### Energy Market Intelligence
+Production trends (EIA), commodity pricing, revenue estimates, compliance monitoring.
+
+| Cadence | Starter | Pro | Enterprise |
+|---------|---------|-----|------------|
+| Weekly | $200 | $400 | $1,000 |
+| Monthly | $400 | $1,200 | $3,000 |
+| Quarterly | $1,000 | $3,000 | $7,000 |
+
+### Sports Analytics
+League standings, Pythagorean projections, conference analysis, performance trends.
+
+| Cadence | Starter | Pro | Enterprise |
+|---------|---------|-----|------------|
+| Weekly | $150 | $300 | $800 |
+| Monthly | $300 | $900 | $2,500 |
+| Quarterly | $800 | $2,500 | $6,000 |
+
+**Tier differences:** Starter = core KPIs, single-portfolio. Pro = full KPI suite, benchmark comparisons, data exports. Enterprise = multi-portfolio, compliance formatting, sign-off workflows, audit trails.
+
+[View full service details](showcase/Service_Offerings_2026.pdf)
+
+### How to Order
+
+Email **MboyaJeffers9@gmail.com** with:
+1. Vertical (crypto, finance, energy, or sports)
+2. Cadence (weekly, monthly, or quarterly)
+3. Tier (starter, pro, or enterprise)
+
+---
+
+## Data Sources
 
 Every report is backed by real data from public APIs:
 
 | Source | API | What It Provides | Scale |
 |--------|-----|-----------------|-------|
-| FRED | St. Louis Fed | 50 macroeconomic series (GDP, rates, labor, prices, money supply) | 368K observations |
-| Yahoo Finance | Market Data | OHLCV for 200 equities across 10 sectors, 5-year history | 529K price records |
+| FRED | St. Louis Fed | 50 macroeconomic series (GDP, rates, labor, prices) | 368K observations |
+| Yahoo Finance | Market Data | OHLCV for 200 equities, 5-year history | 529K price records |
 | Open-Meteo | ERA5 Archive | Hourly weather for 30 US cities, 10-year history | 2.6M hourly readings |
-| Open-Meteo | Forecast API | Daily weather, 30 cities | 109K daily readings |
 | SEC EDGAR | XBRL API | Corporate filings and financial facts | 570K filing records |
-| Steam / SteamSpy | Gaming APIs | Player counts, ownership data, revenue estimates | 37K game records |
-| ESPN | Sports API | Standings and results across 4 major leagues | 21K standings records |
 | CoinGecko | Crypto API | Market data for top cryptocurrencies | 21K market records |
+| ESPN | Sports API | Standings and results across 4 major leagues | 21K standings records |
+| EIA | Energy API | US crude/gas production, pricing | Production time series |
+| Steam / SteamSpy | Gaming APIs | Player counts, ownership data | 37K game records |
 
-**Total: 4,307,796 data points across 30+ star schema tables.**
-
-## Methodology
-
-### Dimensional Modeling
-
-Raw API data is transformed into Kimball star schemas — dimension tables for descriptive attributes, fact tables for numeric measures. This enables consistent KPI computation across verticals.
-
-### KPI Computation
-
-Each vertical has industry-specific KPIs computed from the fact tables:
-
-**Finance:** GDP growth rate, unemployment delta, CPI inflation rate, yield curve spread, real interest rate
-**Brokerage:** Daily returns, Sharpe ratio, sector alpha, volume-weighted average price, RSI
-**Crypto:** Market cap change %, BTC dominance, 24h volume ratio, volatility index
-**Gaming:** Monthly active users, average playtime, revenue per user, ownership growth rate
-**Weather:** Temperature anomaly vs 10-year mean, precipitation deviation, wind speed percentile
-**Solar:** Capacity factor, levelized cost of energy, generation efficiency, economic payback period
-**Compliance:** Filing frequency, fact density per filing, sector filing concentration
-**Betting:** Win percentage, conference standing, streak analysis, strength of schedule
-
-### Report Generation
-
-Reports are generated as branded PDFs using WeasyPrint, with industry-specific color schemes and consistent formatting across all cadences.
-
-## Industry Color Schemes
-
-| Industry | Accent Color | Rationale |
-|----------|-------------|-----------|
-| Finance | Navy (#1e3a5f) | Trust, stability |
-| Brokerage | Navy (#1e3a5f) | Consistent with finance |
-| Media | Blue (#2563eb) | Technology, streaming |
-| Ecommerce | Amber (#d97706) | Commerce, energy |
-| Gaming | Pink (#db2777) | Entertainment, engagement |
-| Crypto | Purple (#9333ea) | Innovation, digital |
-| Solar | Gold (#ca8a04) | Energy, sunlight |
-| Oil & Gas | Burnt Orange (#c2410c) | Industry, petroleum |
-| Betting | Green (#16a34a) | Sports, money |
-| Compliance | Indigo (#4f46e5) | Regulation, authority |
+**Total: 4.3M+ data points across 30+ star schema tables.**
 
 ## Data Quality
 
@@ -117,9 +165,41 @@ Every pipeline output passes validation before report generation:
 
 - **Completeness** — null rates below 5% on all measure columns
 - **Uniqueness** — no duplicate natural keys in dimension tables
-- **Range** — values within expected bounds (no negative volumes, temperatures in physical range)
+- **Range** — values within expected bounds
 - **Consistency** — same metric produces the same value across all reports
 - **Attribution** — every number traceable to a specific API endpoint and date
+
+## Methodology
+
+Raw API data is transformed into Kimball star schemas — dimension tables for descriptive attributes, fact tables for numeric measures. Industry-specific KPIs are computed from the fact tables. Reports are generated as branded PDFs using WeasyPrint with industry-specific color schemes.
+
+Full methodology: [KPI definitions](methodology/kpi-definitions.md) · [API reference](data-sources/api-reference.md)
+
+## Folder Structure
+
+```
+financial-market-analysis/
+├── generators/                  # Python report generators
+│   ├── generate_crypto_report.py
+│   ├── generate_finance_report.py
+│   ├── generate_energy_report.py
+│   ├── generate_sports_report.py
+│   └── report_template.py       # Shared styling/components
+├── reports/
+│   ├── weekly/                  # 9 weekly intelligence PDFs
+│   ├── monthly/                 # 9 monthly review PDFs
+│   └── quarterly/               # 5 quarterly strategic PDFs
+├── showcase/                    # Enterprise showcase reports
+│   ├── finance/                 # Apex Capital reports
+│   ├── crypto/                  # Meridian reports
+│   ├── energy/                  # Sentinel Energy reports
+│   ├── sports/                  # Baseline Sports reports
+│   └── Service_Offerings_2026.pdf
+├── images/                      # Report page samples
+├── methodology/                 # KPI definitions
+├── data-sources/                # API reference
+└── LICENSE
+```
 
 ## Tech Stack
 
@@ -130,22 +210,13 @@ Every pipeline output passes validation before report generation:
 | Storage | Parquet (columnar, compressed) |
 | Modeling | Kimball star schema (dimensions + facts) |
 | Reports | WeasyPrint PDF generation |
+| ML | scikit-learn, statsmodels (GARCH, momentum classification) |
 | Infrastructure | GCP Compute Engine, PostgreSQL |
-
-## Folder Structure
-
-```
-reports/
-├── weekly/       # 9 weekly intelligence PDFs
-├── monthly/      # 9 monthly review PDFs
-└── quarterly/    # 5 quarterly strategic PDFs
-methodology/      # KPI definitions, data source documentation
-data-sources/     # API reference and data dictionary
-```
 
 ## Author
 
-**Mboya Jeffers** — Data Analyst & Engineer
+**Mboya Jeffers** — Data & ML Engineer
 
 - [GitHub](https://github.com/mboyajeffers)
-- [LinkedIn](https://linkedin.com/in/mboyajeffers)
+- [LinkedIn](https://linkedin.com/in/mboya-jeffers-6377ba325)
+- **MboyaJeffers9@gmail.com** · Open to remote data engineering roles and analytics consulting
