@@ -1,8 +1,8 @@
 # Financial Market Analysis
 
-![Reports](https://img.shields.io/badge/reports-33_PDFs-blue)
+![Reports](https://img.shields.io/badge/reports-89_PDFs-blue)
 ![Data Points](https://img.shields.io/badge/data_points-4.3M%2B-green)
-![Industries](https://img.shields.io/badge/industries-4_verticals-orange)
+![Industries](https://img.shields.io/badge/industries-8_verticals-orange)
 ![Cadences](https://img.shields.io/badge/cadences-weekly_|_monthly_|_quarterly-purple)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
@@ -20,7 +20,34 @@ Automated intelligence reports built from **4.3M+ data points** across finance, 
 | **Monthly** | 9 | Same verticals — month-over-month trend analysis |
 | **Quarterly** | 5 | Financial Markets, Digital Economy, Energy & Climate, Sports & Compliance, Executive Review |
 
-### Enterprise Showcase (10 reports)
+### Industry Analysis & Deep-Dives (39 reports)
+
+Industry-specific analysis reports across 7 verticals:
+
+| Vertical | Count | Examples |
+|----------|-------|---------|
+| **Media** | 8 | Content trends, platform KPIs, audience analytics |
+| **Crypto** | 7 | Market analysis, portfolio risk, DeFi metrics |
+| **Betting** | 6 | Odds modeling, spread accuracy, league analysis |
+| **Finance** | 5 | Macro indicators, equity performance, sector rotation |
+| **Solar** | 5 | Resource screening, generation estimates, ROI |
+| **Compliance** | 4 | Regulatory filing patterns, XBRL analysis |
+| **Gaming** | 2 | Player engagement, pricing, retention |
+| **Sports** | 1 | Premier League snapshot |
+| **Weather** | 1 | 5-year multi-city analysis |
+
+Browse: [`reports/industry/`](reports/industry/) · [`samples/`](samples/)
+
+### Methodology & Summaries (12 reports)
+
+| Type | Count | Contents |
+|------|-------|---------|
+| **Executive Summaries** | 6 | Federal Awards, SEC XBRL, Aviation, Healthcare, Cybersecurity, Energy Grid |
+| **Methodology** | 6 | Data validation approaches, KPI derivation, pipeline architecture |
+
+Browse: [`reports/summaries/`](reports/summaries/) · [`reports/methodology/`](reports/methodology/)
+
+### Enterprise Showcase (11 reports)
 
 Branded reports generated for fictional enterprise clients — demonstrating production report quality:
 
@@ -188,7 +215,11 @@ financial-market-analysis/
 ├── reports/
 │   ├── weekly/                  # 9 weekly intelligence PDFs
 │   ├── monthly/                 # 9 monthly review PDFs
-│   └── quarterly/               # 5 quarterly strategic PDFs
+│   ├── quarterly/               # 5 quarterly strategic PDFs
+│   ├── industry/                # 39 industry analysis reports (7 verticals)
+│   ├── summaries/               # 6 executive summaries
+│   └── methodology/             # 6 methodology deep-dives
+├── samples/                     # Sample reports (finance, crypto, energy, sports, weather)
 ├── showcase/                    # Enterprise showcase reports
 │   ├── finance/                 # Apex Capital reports
 │   ├── crypto/                  # Meridian reports
