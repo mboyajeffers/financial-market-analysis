@@ -1,12 +1,13 @@
 # Financial Market Analysis
 
 ![Reports](https://img.shields.io/badge/reports-89_PDFs-blue)
+![White Glove](https://img.shields.io/badge/white_glove-3_live_demos-gold)
 ![Data Points](https://img.shields.io/badge/data_points-4.3M%2B-green)
 ![Industries](https://img.shields.io/badge/industries-8_verticals-orange)
 ![Cadences](https://img.shields.io/badge/cadences-weekly_|_monthly_|_quarterly-purple)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-Automated intelligence reports built from **4.3M+ data points** across finance, crypto, energy, and sports — delivered at weekly, monthly, and quarterly cadences. Every metric traces back to a verifiable public data source.
+Automated intelligence reports built from **4.3M+ data points** across finance, crypto, energy, and sports — delivered at weekly, monthly, and quarterly cadences. Every metric traces back to a verifiable public data source. Includes **3 prospect-specific white glove demos** built with 100% live data.
 
 ---
 
@@ -89,6 +90,22 @@ Branded reports generated for fictional enterprise clients — demonstrating pro
 <td><img src="images/sports-3.png" width="200"/></td>
 </tr>
 </table>
+
+---
+
+## White Glove Showcase — Live Data, Real Prospects
+
+Prospect-specific demos built with **100% live data**, pulled at generation time. Every figure traces to a timestamped API endpoint. No synthetic data.
+
+| Demo | Prospect | Engine | Data Sources | PDF |
+|------|----------|--------|--------------|-----|
+| **Aptus Capital Advisors** | $9.9B AUM, 30-person investment firm | Finance | Yahoo Finance (5 equities + SPY) + FRED (5 macro series) | [View PDF](white-glove/Aptus_Capital_WhiteGlove_Demo.pdf) |
+| **Multicoin Capital** | $1B+ AUM crypto fund, 17 people | Crypto | CoinGecko live — top 20 assets by market cap | [View PDF](white-glove/Multicoin_Capital_WhiteGlove_Demo.pdf) |
+| **PO&G Resources, LP** | 500+ well operator | Energy / O&G | EIA API v2 (crude MBBL/D + NG marketed MMCF) + Yahoo Finance (CL=F, NG=F) | [View PDF](white-glove/POG_Resources_WhiteGlove_Demo.pdf) |
+
+Each PDF includes: a proposal page (engagement terms + cost comparison vs. FTE hire), full data audit trail (source, endpoint, pull timestamp), industry-specific KPI report, and methodology appendix.
+
+Browse: [`white-glove/`](white-glove/)
 
 ---
 
