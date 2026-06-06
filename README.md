@@ -1,56 +1,37 @@
-# Financial Market Analysis
+# Mboya Jeffers — Market Intelligence Reports
 
-![Reports](https://img.shields.io/badge/reports-89_PDFs-blue)
-![White Glove](https://img.shields.io/badge/white_glove-3_live_demos-gold)
-![Data Points](https://img.shields.io/badge/data_points-4.3M%2B-green)
-![Industries](https://img.shields.io/badge/industries-8_verticals-orange)
-![Cadences](https://img.shields.io/badge/cadences-weekly_|_monthly_|_quarterly-purple)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![Reports](https://img.shields.io/badge/reports-89_PDFs-6366f1?style=flat-square)
+![White Glove](https://img.shields.io/badge/white_glove-3_live_demos-f59e0b?style=flat-square)
+![Data Points](https://img.shields.io/badge/data_points-4.3M%2B-3b82f6?style=flat-square)
+![Verticals](https://img.shields.io/badge/verticals-9_industries-10b981?style=flat-square)
+![Cadences](https://img.shields.io/badge/cadences-weekly_|_monthly_|_quarterly-8b5cf6?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)
 
-Automated intelligence reports built from **4.3M+ data points** across finance, crypto, energy, and sports — delivered at weekly, monthly, and quarterly cadences. Every metric traces back to a verifiable public data source. Includes **3 prospect-specific white glove demos** built with 100% live data.
+89 branded intelligence reports across 9 industry verticals — built from live public API data, rendered as institutional-quality PDFs, with every number traceable to its source.
+
+Three of these reports were built as live-data demos tailored to real prospective clients before they committed to anything. That's the capability this repo is designed to show.
 
 ---
 
-## Report Catalog
+## White-glove demos — the sharpest thing here
 
-### Recurring Intelligence (23 reports)
+Three prospect-specific reports. 100% live data pulled at generation time. No synthetic figures. Every metric cites its API endpoint and pull timestamp.
 
-| Cadence | Count | Verticals |
-|---------|-------|-----------|
-| **Weekly** | 9 | Finance, Brokerage, Crypto, Gaming, Sports, Weather, Solar, Compliance, Executive |
-| **Monthly** | 9 | Same verticals — month-over-month trend analysis |
-| **Quarterly** | 5 | Financial Markets, Digital Economy, Energy & Climate, Sports & Compliance, Executive Review |
+| Demo | Prospect Profile | Vertical | Data Sources |
+|------|-----------------|----------|--------------|
+| [**Aptus Capital Advisors**](white-glove/Aptus_Capital_WhiteGlove_Demo.pdf) | $9.9B AUM, 30-person investment firm | Finance | Yahoo Finance (5 equities + SPY benchmark) + FRED (5 macro series) |
+| [**Multicoin Capital**](white-glove/Multicoin_Capital_WhiteGlove_Demo.pdf) | $1B+ AUM crypto fund, 17 people | Crypto | CoinGecko live — top 20 assets by market cap |
+| [**PO&G Resources, LP**](white-glove/POG_Resources_WhiteGlove_Demo.pdf) | 500+ well energy operator, posted Data Analyst job | Oil & Gas | EIA API v2 (crude MBBL/D + natural gas marketed MMCF) + Yahoo Finance (CL=F, NG=F) |
 
-### Industry Analysis & Deep-Dives (39 reports)
+Each demo includes a proposal page with engagement terms and a direct cost comparison to a full-time hire.
 
-Industry-specific analysis reports across 7 verticals:
+---
 
-| Vertical | Count | Examples |
-|----------|-------|---------|
-| **Media** | 8 | Content trends, platform KPIs, audience analytics |
-| **Crypto** | 7 | Market analysis, portfolio risk, DeFi metrics |
-| **Betting** | 6 | Odds modeling, spread accuracy, league analysis |
-| **Finance** | 5 | Macro indicators, equity performance, sector rotation |
-| **Solar** | 5 | Resource screening, generation estimates, ROI |
-| **Compliance** | 4 | Regulatory filing patterns, XBRL analysis |
-| **Gaming** | 2 | Player engagement, pricing, retention |
-| **Sports** | 1 | Premier League snapshot |
-| **Weather** | 1 | 5-year multi-city analysis |
+## Report catalog — 89 PDFs
 
-Browse: [`reports/industry/`](reports/industry/) · [`samples/`](samples/)
+### Enterprise showcase — production-quality client reports
 
-### Methodology & Summaries (12 reports)
-
-| Type | Count | Contents |
-|------|-------|---------|
-| **Executive Summaries** | 6 | Federal Awards, SEC XBRL, Aviation, Healthcare, Cybersecurity, Energy Grid |
-| **Methodology** | 6 | Data validation approaches, KPI derivation, pipeline architecture |
-
-Browse: [`reports/summaries/`](reports/summaries/) · [`reports/methodology/`](reports/methodology/)
-
-### Enterprise Showcase (11 reports)
-
-Branded reports generated for fictional enterprise clients — demonstrating production report quality:
+Branded reports for fictional enterprise clients demonstrating what a delivered product looks like:
 
 | Client | Vertical | Reports |
 |--------|----------|---------|
@@ -58,11 +39,43 @@ Branded reports generated for fictional enterprise clients — demonstrating pro
 | **Meridian Digital Assets** | Crypto | [Quarterly](showcase/crypto/Meridian_Crypto_Q3_2025_Portfolio_Analysis.pdf) · [Monthly](showcase/crypto/Meridian_Crypto_Monthly_Review_2025-11.pdf) · [Weekly](showcase/crypto/Meridian_Crypto_Weekly_Snapshot_2025-11-21.pdf) |
 | **Sentinel Energy Partners** | Energy | [Monthly](showcase/energy/Sentinel_Energy_Monthly_Production_2025-11.pdf) |
 | **Baseline Sports Analytics** | Sports | [Weekly](showcase/sports/Baseline_Sports_Weekly_Intelligence_2025-11-21.pdf) |
-| **Platform Overview** | All | [Showcase Index](showcase/Enterprise_Showcase_Index.pdf) · [Platform Capabilities](showcase/Data_Platform_Capabilities.pdf) |
+| **Platform Overview** | All | [Showcase Index](showcase/Enterprise_Showcase_Index.pdf) · [Capabilities](showcase/Data_Platform_Capabilities.pdf) |
+
+### Recurring intelligence (23 reports)
+
+| Cadence | Count | Verticals covered |
+|---------|-------|------------------|
+| Weekly | 9 | Finance, Brokerage, Crypto, Gaming, Sports, Weather, Solar, Compliance, Executive |
+| Monthly | 9 | Same verticals — month-over-month trend layer |
+| Quarterly | 5 | Financial Markets, Digital Economy, Energy & Climate, Sports & Compliance, Executive |
+
+Browse: [`reports/weekly/`](reports/weekly/) · [`reports/monthly/`](reports/monthly/) · [`reports/quarterly/`](reports/quarterly/)
+
+### Industry deep-dives (39 reports)
+
+| Vertical | Reports | Examples |
+|----------|---------|---------|
+| Media & Streaming | 8 | Platform KPIs, content trends, audience analytics |
+| Crypto | 7 | Portfolio risk, DeFi metrics, market structure |
+| Sports & Betting | 6 | Odds modeling, spread accuracy, league analysis |
+| Finance | 5 | Macro, equity performance, sector rotation |
+| Solar | 5 | Resource screening, generation estimates, ROI |
+| Compliance | 4 | XBRL analysis, regulatory filing patterns |
+| Gaming | 2 | Player engagement, retention, pricing |
+| Sports | 1 | Premier League snapshot |
+| Weather | 1 | 5-year multi-city analysis |
+
+Browse: [`reports/industry/`](reports/industry/)
+
+### Methodology & summaries (12 reports)
+
+Six executive summaries (Federal Awards, SEC XBRL, Aviation, Healthcare, Cybersecurity, Energy Grid) and six methodology deep-dives covering KPI derivation, data validation, and pipeline architecture.
+
+Browse: [`reports/summaries/`](reports/summaries/) · [`reports/methodology/`](reports/methodology/)
 
 ---
 
-## Sample Report Pages
+## Sample pages
 
 <table>
 <tr>
@@ -93,178 +106,161 @@ Branded reports generated for fictional enterprise clients — demonstrating pro
 
 ---
 
-## White Glove Showcase — Live Data, Real Prospects
+## Services
 
-Prospect-specific demos built with **100% live data**, pulled at generation time. Every figure traces to a timestamped API endpoint. No synthetic data.
+Ongoing analytics reports across four verticals. Every report uses live data pulled at generation time.
 
-| Demo | Prospect | Engine | Data Sources | PDF |
-|------|----------|--------|--------------|-----|
-| **Aptus Capital Advisors** | $9.9B AUM, 30-person investment firm | Finance | Yahoo Finance (5 equities + SPY) + FRED (5 macro series) | [View PDF](white-glove/Aptus_Capital_WhiteGlove_Demo.pdf) |
-| **Multicoin Capital** | $1B+ AUM crypto fund, 17 people | Crypto | CoinGecko live — top 20 assets by market cap | [View PDF](white-glove/Multicoin_Capital_WhiteGlove_Demo.pdf) |
-| **PO&G Resources, LP** | 500+ well operator | Energy / O&G | EIA API v2 (crude MBBL/D + NG marketed MMCF) + Yahoo Finance (CL=F, NG=F) | [View PDF](white-glove/POG_Resources_WhiteGlove_Demo.pdf) |
+### Financial analytics
 
-Each PDF includes: a proposal page (engagement terms + cost comparison vs. FTE hire), full data audit trail (source, endpoint, pull timestamp), industry-specific KPI report, and methodology appendix.
+Macro indicators (FRED), equity performance (Yahoo Finance), sector rotation, risk decomposition (Sharpe, beta, alpha, max drawdown).
 
-Browse: [`white-glove/`](white-glove/)
+| | Starter | Pro | Enterprise |
+|--|---------|-----|------------|
+| **Weekly** | $200 | $400 | $1,000 |
+| **Monthly** | $400 | $1,200 | $3,000 |
+| **Quarterly** | $1,000 | $3,000 | $7,000 |
+
+### Crypto portfolio analytics
+
+Portfolio KPIs (VaR, Sharpe, Sortino, HHI concentration), top-20 market structure, volume anomaly detection.
+
+| | Starter | Pro | Enterprise |
+|--|---------|-----|------------|
+| **Weekly** | $250 | $500 | $1,200 |
+| **Monthly** | $500 | $1,500 | $3,500 |
+| **Quarterly** | $1,200 | $3,500 | $8,000 |
+
+### Energy market intelligence
+
+Production trends (EIA API), commodity pricing, revenue estimates, supply structure.
+
+| | Starter | Pro | Enterprise |
+|--|---------|-----|------------|
+| **Weekly** | $200 | $400 | $1,000 |
+| **Monthly** | $400 | $1,200 | $3,000 |
+| **Quarterly** | $1,000 | $3,000 | $7,000 |
+
+### Sports analytics
+
+League standings, Pythagorean win projections, conference breakdowns, performance trends.
+
+| | Starter | Pro | Enterprise |
+|--|---------|-----|------------|
+| **Weekly** | $150 | $300 | $800 |
+| **Monthly** | $300 | $900 | $2,500 |
+| **Quarterly** | $800 | $2,500 | $6,000 |
+
+**Tier breakdown:**
+- **Starter** — Core KPIs, single-portfolio or single-entity focus
+- **Pro** — Full KPI suite, benchmark comparisons, data export, trend overlays
+- **Enterprise** — Multi-portfolio, custom branding, compliance-ready formatting, audit trail, sign-off workflow
+
+**White-glove retainer** (embedded analytics partner) — $5,000–$20,000/month. Dedicated pipeline, custom vertical scope, weekly + monthly + quarterly cadence, direct delivery.
+
+[Full service overview →](showcase/Service_Offerings_2026.pdf)
+
+### How to engage
+
+Email **MboyaJeffers9@gmail.com**:
+- Which vertical (finance, crypto, energy, sports)
+- Which cadence (weekly, monthly, quarterly)
+- Which tier — or request a white-glove demo first
+
+White-glove demo: if you want to see a report built around your firm's actual profile before committing, that's available on request.
 
 ---
 
-## Report Generators
+## Report generators — how the reports are built
 
-Each vertical has a standalone Python generator that pulls live data from public APIs and produces a branded PDF:
+Four standalone Python scripts. Each pulls live data from public APIs and renders a branded PDF.
 
-| Generator | Data Source | What It Produces |
-|-----------|------------|-----------------|
-| [`generate_finance_report.py`](generators/generate_finance_report.py) | FRED + Yahoo Finance | Macro analysis, portfolio performance, risk metrics (Sharpe, beta, alpha, max drawdown) |
-| [`generate_crypto_report.py`](generators/generate_crypto_report.py) | CoinGecko | Portfolio KPIs (VaR, Sortino, HHI concentration), top-20 market data |
-| [`generate_energy_report.py`](generators/generate_energy_report.py) | EIA API + Yahoo Finance | Crude/gas production trends, WTI pricing, revenue estimates |
-| [`generate_sports_report.py`](generators/generate_sports_report.py) | ESPN | NFL standings, Pythagorean win analysis, conference breakdowns |
+| Generator | Data sources | What it computes |
+|-----------|-------------|-----------------|
+| [`generate_finance_report.py`](generators/generate_finance_report.py) | Yahoo Finance + FRED | Returns, volatility, Sharpe, beta, alpha, max drawdown, macro overlay (CPI, rates, unemployment) |
+| [`generate_crypto_report.py`](generators/generate_crypto_report.py) | CoinGecko | VaR, Sortino, HHI concentration, 24h + 30d performance, market cap distribution |
+| [`generate_energy_report.py`](generators/generate_energy_report.py) | EIA API v2 + Yahoo Finance | Crude/NG production (MBBL/D, MMCF), WTI + Henry Hub pricing, supply trends |
+| [`generate_sports_report.py`](generators/generate_sports_report.py) | ESPN | Standings, Pythagorean projections, win%, point differential, conference breakdowns |
 
-### Running a Generator
+Shared [`report_template.py`](generators/report_template.py) provides consistent KPI grids, risk badges, source attribution tables, and industry-specific color schemes.
+
+**Run any generator:**
 
 ```bash
-pip install weasyprint
+pip install weasyprint yfinance requests
 python generators/generate_finance_report.py
 ```
 
-Each generator fetches live data, computes KPIs, and outputs a branded PDF to `output/`. No API keys required (all public endpoints).
-
-The shared [`report_template.py`](generators/report_template.py) provides consistent styling — KPI grids, risk badges, methodology sections, and industry-specific color schemes.
+No paid API keys required. All sources are public endpoints.
 
 ---
 
-## Services
+## Data sources
 
-Automated analytics reports available across four verticals:
+| Source | What it provides | Scale |
+|--------|-----------------|-------|
+| **FRED** (St. Louis Fed) | 50 macro series — GDP, CPI, yield curve, unemployment, rates | 368K observations |
+| **Yahoo Finance** | OHLCV for 200 equities, 5-year daily history | 529K price records |
+| **CoinGecko** | Market data for top cryptocurrencies | 21K market records |
+| **EIA API v2** | US crude and natural gas production, pricing | Production time series |
+| **Open-Meteo** | Hourly weather — 30 US cities, 10-year history | 2.6M hourly readings |
+| **SEC EDGAR** | Corporate filings and XBRL financial facts | 570K filing records |
+| **ESPN** | Standings and results — 4 major leagues | 21K standings records |
+| **Steam / SteamSpy** | Player counts, game ownership data | 37K game records |
 
-### Crypto Portfolio Analytics
-Portfolio performance, risk metrics (VaR, Sharpe, Sortino), allocation analysis, volume anomaly detection.
+**Total: 4.3M+ data points across 30+ star schema dimension and fact tables.**
 
-| Cadence | Starter | Pro | Enterprise |
-|---------|---------|-----|------------|
-| Weekly | $250 | $500 | $1,200 |
-| Monthly | $500 | $1,500 | $3,500 |
-| Quarterly | $1,200 | $3,500 | $8,000 |
+### Data quality standard
 
-### Financial Analytics
-Macro indicators (FRED), equity performance (Yahoo Finance), risk decomposition, sector analysis.
-
-| Cadence | Starter | Pro | Enterprise |
-|---------|---------|-----|------------|
-| Weekly | $200 | $400 | $1,000 |
-| Monthly | $400 | $1,200 | $3,000 |
-| Quarterly | $1,000 | $3,000 | $7,000 |
-
-### Energy Market Intelligence
-Production trends (EIA), commodity pricing, revenue estimates, compliance monitoring.
-
-| Cadence | Starter | Pro | Enterprise |
-|---------|---------|-----|------------|
-| Weekly | $200 | $400 | $1,000 |
-| Monthly | $400 | $1,200 | $3,000 |
-| Quarterly | $1,000 | $3,000 | $7,000 |
-
-### Sports Analytics
-League standings, Pythagorean projections, conference analysis, performance trends.
-
-| Cadence | Starter | Pro | Enterprise |
-|---------|---------|-----|------------|
-| Weekly | $150 | $300 | $800 |
-| Monthly | $300 | $900 | $2,500 |
-| Quarterly | $800 | $2,500 | $6,000 |
-
-**Tier differences:** Starter = core KPIs, single-portfolio. Pro = full KPI suite, benchmark comparisons, data exports. Enterprise = multi-portfolio, compliance formatting, sign-off workflows, audit trails.
-
-[View full service details](showcase/Service_Offerings_2026.pdf)
-
-### How to Order
-
-Email **MboyaJeffers9@gmail.com** with:
-1. Vertical (crypto, finance, energy, or sports)
-2. Cadence (weekly, monthly, or quarterly)
-3. Tier (starter, pro, or enterprise)
-
----
-
-## Data Sources
-
-Every report is backed by real data from public APIs:
-
-| Source | API | What It Provides | Scale |
-|--------|-----|-----------------|-------|
-| FRED | St. Louis Fed | 50 macroeconomic series (GDP, rates, labor, prices) | 368K observations |
-| Yahoo Finance | Market Data | OHLCV for 200 equities, 5-year history | 529K price records |
-| Open-Meteo | ERA5 Archive | Hourly weather for 30 US cities, 10-year history | 2.6M hourly readings |
-| SEC EDGAR | XBRL API | Corporate filings and financial facts | 570K filing records |
-| CoinGecko | Crypto API | Market data for top cryptocurrencies | 21K market records |
-| ESPN | Sports API | Standings and results across 4 major leagues | 21K standings records |
-| EIA | Energy API | US crude/gas production, pricing | Production time series |
-| Steam / SteamSpy | Gaming APIs | Player counts, ownership data | 37K game records |
-
-**Total: 4.3M+ data points across 30+ star schema tables.**
-
-## Data Quality
-
-Every pipeline output passes validation before report generation:
+Every pipeline output passes validation before a report is generated:
 
 - **Completeness** — null rates below 5% on all measure columns
 - **Uniqueness** — no duplicate natural keys in dimension tables
-- **Range** — values within expected bounds
-- **Consistency** — same metric produces the same value across all reports
-- **Attribution** — every number traceable to a specific API endpoint and date
+- **Range** — values within expected bounds per metric type
+- **Consistency** — same metric produces the same value across all report sections
+- **Attribution** — every number cites its API endpoint, series ID, and pull date
 
-## Methodology
+---
 
-Raw API data is transformed into Kimball star schemas — dimension tables for descriptive attributes, fact tables for numeric measures. Industry-specific KPIs are computed from the fact tables. Reports are generated as branded PDFs using WeasyPrint with industry-specific color schemes.
+## For sales partners and BD
 
-Full methodology: [KPI definitions](methodology/kpi-definitions.md) · [API reference](data-sources/api-reference.md)
+If you place analytics reports or data services with institutional buyers — hedge funds, asset managers, energy operators, crypto funds, family offices, compliance teams — and you're looking for something to add to what you sell, let's talk.
 
-## Folder Structure
+**What the engagement looks like:** Rev-share or referral fee on closed deals. You handle the relationship; the reports are already built and the pipeline is live. White-glove demos are available for qualified prospects before any commitment. No volume requirement to start.
+
+**Contact:** MboyaJeffers9@gmail.com
+
+---
+
+## Repo structure
 
 ```
 financial-market-analysis/
-├── generators/                  # Python report generators
-│   ├── generate_crypto_report.py
-│   ├── generate_finance_report.py
-│   ├── generate_energy_report.py
-│   ├── generate_sports_report.py
-│   └── report_template.py       # Shared styling/components
+├── generators/                  # Python report generators + shared template
 ├── reports/
-│   ├── weekly/                  # 9 weekly intelligence PDFs
-│   ├── monthly/                 # 9 monthly review PDFs
-│   ├── quarterly/               # 5 quarterly strategic PDFs
-│   ├── industry/                # 39 industry analysis reports (7 verticals)
+│   ├── weekly/                  # 9 weekly intelligence reports
+│   ├── monthly/                 # 9 monthly review reports
+│   ├── quarterly/               # 5 quarterly strategic reports
+│   ├── industry/                # 39 vertical analysis reports
 │   ├── summaries/               # 6 executive summaries
 │   └── methodology/             # 6 methodology deep-dives
-├── samples/                     # Sample reports (finance, crypto, energy, sports, weather)
-├── showcase/                    # Enterprise showcase reports
+├── samples/                     # Sample PDFs (one per vertical)
+├── showcase/                    # Enterprise showcase + service overview
 │   ├── finance/                 # Apex Capital reports
-│   ├── crypto/                  # Meridian reports
+│   ├── crypto/                  # Meridian Digital Assets reports
 │   ├── energy/                  # Sentinel Energy reports
-│   ├── sports/                  # Baseline Sports reports
-│   └── Service_Offerings_2026.pdf
-├── images/                      # Report page samples
+│   └── sports/                  # Baseline Sports reports
+├── white-glove/                 # 3 live-data prospect-specific demos
+├── images/                      # Report page preview images
 ├── methodology/                 # KPI definitions
-├── data-sources/                # API reference
-└── LICENSE
+└── data-sources/                # API reference
 ```
 
-## Tech Stack
-
-| Layer | Tools |
-|-------|-------|
-| Data Sources | 8 public APIs (no paid subscriptions) |
-| Processing | Python, pandas |
-| Storage | Parquet (columnar, compressed) |
-| Modeling | Kimball star schema (dimensions + facts) |
-| Reports | WeasyPrint PDF generation |
-| ML | scikit-learn, statsmodels (GARCH, momentum classification) |
-| Infrastructure | GCP Compute Engine, PostgreSQL |
+---
 
 ## Author
 
 **Mboya Jeffers** — Data & ML Engineer
 
-- [GitHub](https://github.com/mboyajeffers)
-- [LinkedIn](https://linkedin.com/in/mboya-jeffers-6377ba325)
-- **MboyaJeffers9@gmail.com** · Open to remote data engineering roles and analytics consulting
+[GitHub](https://github.com/mboyajeffers) · [LinkedIn](https://linkedin.com/in/mboya-jeffers-6377ba325) · MboyaJeffers9@gmail.com · Remote (US-based)
+
+*Analytics consulting and embedded data partnerships.*
