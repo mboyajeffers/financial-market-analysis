@@ -72,7 +72,6 @@ def compute_kpis(teams):
 
     # League averages
     total_pf = sum(t["points_for"] for t in teams)
-    total_pa = sum(t["points_against"] for t in teams)
     total_games = sum(t["wins"] + t["losses"] + t["ties"] for t in teams) / 2
     kpis["avg_points_per_game"] = total_pf / total_games if total_games else 0
     kpis["total_games_played"] = int(total_games)

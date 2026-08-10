@@ -13,7 +13,7 @@ import urllib.request
 import urllib.error
 import csv
 import io
-from datetime import datetime, timedelta
+from datetime import datetime
 from weasyprint import HTML
 
 # --- FRED Data Pull (CSV direct — no API key needed) ---
@@ -26,7 +26,7 @@ def fetch_fred_csv(series_id, max_retries=3):
             with urllib.request.urlopen(req, timeout=15) as resp:
                 text = resp.read().decode()
                 reader = csv.reader(io.StringIO(text))
-                header = next(reader)
+                next(reader)  # skip header row
                 rows = list(reader)
                 # Get latest non-empty value
                 for row in reversed(rows):

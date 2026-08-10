@@ -11,7 +11,7 @@ import os
 import time
 import urllib.request
 import urllib.error
-from datetime import datetime, timedelta
+from datetime import datetime
 from weasyprint import HTML
 
 # --- Data Pull: CoinGecko (real data, retry on rate limit) ---
@@ -123,7 +123,7 @@ def pct_color(val):
 
 def generate_html(coins, kpis):
     today = datetime.now().strftime("%B %d, %Y")
-    q_label = f"Q1 2026"
+    q_label = "Q1 2026"
 
     # Build holdings table rows
     holdings_rows = ""

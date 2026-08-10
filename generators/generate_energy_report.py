@@ -6,7 +6,6 @@ Uses EIA API + Yahoo Finance — REAL DATA ONLY (no fallback)
 """
 
 import json
-import math
 import os
 import time
 import urllib.request
