@@ -1,20 +1,19 @@
 #!/usr/bin/env python3
 """
 Shared Report Template Module — Enterprise Showcase Suite
-Matches CMS Official PDF Template (cms_pdf_generator.py / pdf_generator_template.py)
+Shared header/footer/KPI-card components used across all report generators
 
 Author: Mboya Jeffers (MboyaJeffers9@gmail.com)
-System: Clean Metrics Studio (CMS)
 """
 from datetime import datetime
 
 AUTHOR = "Mboya Jeffers"
 EMAIL = "MboyaJeffers9@gmail.com"
-SYSTEM = "Clean Metrics Studio (CMS)"
+SYSTEM = "Mboya Jeffers — Market Intelligence"
 
 
 def get_base_css(color_primary, color_light=None, color_accent=None):
-    """Return CMS-standard CSS for all report types."""
+    """Return the shared base CSS used across all report types."""
     if not color_accent:
         color_accent = color_primary
     return f"""
@@ -314,11 +313,11 @@ def risk_class(level):
 
 
 # ============================================================================
-# CMS STANDARD HTML COMPONENTS
+# SHARED HTML COMPONENTS
 # ============================================================================
 
 def header_block(title, subtitle="Generated Report", date_str=None):
-    """CMS standard header block — top-left title, subtitle, date, 3px colored rule.
+    """Standard header block — top-left title, subtitle, date, 3px colored rule.
     Used as cover page (page 1) with page break after."""
     if not date_str:
         date_str = datetime.now().strftime("%B %d, %Y")
@@ -332,7 +331,7 @@ def header_block(title, subtitle="Generated Report", date_str=None):
 
 
 def cover_page(title, subtitle="Generated Report", date_str=None):
-    """CMS standard cover page — header block followed by page break."""
+    """Standard cover page — header block followed by page break."""
     return header_block(title, subtitle, date_str) + '<div class="page-break"></div>\n'
 
 
@@ -342,7 +341,7 @@ def content_start():
 
 
 def exec_summary(text_or_bullets):
-    """Executive Summary section — CMS standard with bullet points."""
+    """Executive Summary section — standard layout with bullet points."""
     html = '<h2 class="section-title">Executive Summary</h2>\n'
     if isinstance(text_or_bullets, list):
         html += "<ul>\n"
@@ -370,7 +369,7 @@ def subsection(title):
 
 
 def kpi_grid(kpis):
-    """CMS KPI card grid. kpis = list of (value, label) tuples."""
+    """KPI card grid. kpis = list of (value, label) tuples."""
     cards = ""
     for val, label in kpis:
         cards += """
@@ -443,7 +442,7 @@ def methodology_table(methods):
 
 
 def highlight_box(content, box_type=""):
-    """CMS highlight box. box_type: '', 'warning', 'success', 'info'."""
+    """Highlight box. box_type: '', 'warning', 'success', 'info'."""
     return '<div class="highlight-box %s">%s</div>\n' % (box_type, content)
 
 
@@ -474,7 +473,7 @@ def data_lineage_section(sources, total_rows):
 
 
 def methodology_section(data_source, metric_defs=None, limitations=None):
-    """CMS-standard Methodology section with subsections."""
+    """Standard Methodology section with subsections."""
     html = '<h2 class="section-title">Methodology</h2>\n'
     html += '<h3>Data Source</h3>\n'
     if isinstance(data_source, list):
@@ -522,7 +521,7 @@ def disclaimer(client_name, data_sources_text):
 
 
 def footer(data_source="PostgreSQL"):
-    """CMS standard footer with author attribution and branding."""
+    """Standard footer with author attribution and branding."""
     return """
 <div class="footer">
     Report prepared by <span class="author">%s</span> | %s<br>
@@ -531,11 +530,11 @@ def footer(data_source="PostgreSQL"):
 """ % (AUTHOR, EMAIL, data_source, SYSTEM)
 
 
-def cms_branding():
-    """'Clean Metrics Studio' branding line at end of document."""
+def report_branding():
+    """Author branding line at end of document."""
     return """
 <div style="text-align:center;margin-top:20px;padding-top:10px;border-top:1px solid #eee;">
-    <strong style="color:#2d9596;">Clean Metrics Studio</strong>
+    <strong style="color:#2d9596;">Mboya Jeffers</strong>
 </div>
 """
 
@@ -546,7 +545,7 @@ def footer_attribution(total_rows=None):
     src = "PostgreSQL"
     if total_rows:
         src = "PostgreSQL ({:,}+ rows)".format(total_rows)
-    return footer(src) + cms_branding()
+    return footer(src) + report_branding()
 
 
 def section_break():
