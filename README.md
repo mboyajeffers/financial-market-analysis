@@ -1,13 +1,13 @@
 # Mboya Jeffers — Market Intelligence Reports
 
-![Reports](https://img.shields.io/badge/reports-89_PDFs-6366f1?style=flat-square)
+![Reports](https://img.shields.io/badge/reports-96_PDFs-6366f1?style=flat-square)
 ![White Glove](https://img.shields.io/badge/white_glove-3_live_demos-f59e0b?style=flat-square)
 ![Data Points](https://img.shields.io/badge/data_points-4.3M%2B-3b82f6?style=flat-square)
 ![Verticals](https://img.shields.io/badge/verticals-9_industries-10b981?style=flat-square)
 ![Cadences](https://img.shields.io/badge/cadences-weekly_|_monthly_|_quarterly-8b5cf6?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)
 
-89 branded intelligence reports across 9 industry verticals — built from live public API data, rendered as institutional-quality PDFs, with every number traceable to its source.
+96 branded intelligence reports across 9 industry verticals — built from live public API data, rendered as institutional-quality PDFs, with every number traceable to its source.
 
 Three of these reports were built as live-data demos tailored to real prospective clients before they committed to anything. That's the capability this repo is designed to show.
 
@@ -27,7 +27,7 @@ Each demo includes a proposal page with engagement terms and a direct cost compa
 
 ---
 
-## Report catalog — 89 PDFs
+## Report catalog — 96 PDFs
 
 ### Enterprise showcase — production-quality client reports
 
@@ -72,6 +72,17 @@ Browse: [`reports/industry/`](reports/industry/)
 Six executive summaries (Federal Awards, SEC XBRL, Aviation, Healthcare, Cybersecurity, Energy Grid) and six methodology deep-dives covering KPI derivation, data validation, and pipeline architecture.
 
 Browse: [`reports/summaries/`](reports/summaries/) · [`reports/methodology/`](reports/methodology/)
+
+### Q1/Q2 2026 additions (4 reports)
+
+| Report | Client Profile | Vertical |
+|--------|----------------|----------|
+| [WealthBridge Q1 2026 Market Intelligence](reports/q1_2026/WealthBridge_Q1_2026_Market_Intelligence.pdf) | Fictional client | Multi-sector |
+| [StreamCore Q1 2026 Media Intelligence](reports/q1_2026/StreamCore_Q1_2026_Media_Intelligence.pdf) | Fictional client | Media |
+| [PayLayer Q1 2026 Crypto Intelligence](reports/q1_2026/PayLayer_Q1_2026_Crypto_Intelligence.pdf) | Fictional client | Crypto |
+| [Q2 2026 Market Intelligence Report](reports/market-intelligence/Q2_2026_Market_Intelligence_Report.pdf) | — | Multi-sector |
+
+See also: [**CAPABILITIES.md**](CAPABILITIES.md) — vertical-by-vertical breakdown of what the platform covers.
 
 ---
 
@@ -242,7 +253,9 @@ financial-market-analysis/
 │   ├── quarterly/               # 5 quarterly strategic reports
 │   ├── industry/                # 39 vertical analysis reports
 │   ├── summaries/               # 6 executive summaries
-│   └── methodology/             # 6 methodology deep-dives
+│   ├── methodology/             # 6 methodology deep-dives
+│   ├── q1_2026/                 # 3 Q1 2026 client-profile reports
+│   └── market-intelligence/     # Q2 2026 market intelligence report
 ├── samples/                     # Sample PDFs (one per vertical)
 ├── showcase/                    # Enterprise showcase + service overview
 │   ├── finance/                 # Apex Capital reports
@@ -252,7 +265,8 @@ financial-market-analysis/
 ├── white-glove/                 # 3 live-data prospect-specific demos
 ├── images/                      # Report page preview images
 ├── methodology/                 # KPI definitions
-└── data-sources/                # API reference
+├── data-sources/                # API reference
+└── CAPABILITIES.md              # Vertical-by-vertical platform capabilities
 ```
 
 ---
