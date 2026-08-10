@@ -1,5 +1,6 @@
 # Mboya Jeffers — Market Intelligence Reports
 
+![CI](https://github.com/mboyajeffers/financial-market-analysis/actions/workflows/ci.yml/badge.svg)
 ![Reports](https://img.shields.io/badge/reports-96_PDFs-6366f1?style=flat-square)
 ![White Glove](https://img.shields.io/badge/white_glove-3_live_demos-f59e0b?style=flat-square)
 ![Data Points](https://img.shields.io/badge/data_points-4.3M%2B-3b82f6?style=flat-square)
