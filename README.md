@@ -1,10 +1,10 @@
 # Mboya Jeffers — Market Intelligence Reports
 
 ![CI](https://github.com/mboyajeffers/financial-market-analysis/actions/workflows/ci.yml/badge.svg)
-![Reports](https://img.shields.io/badge/reports-96_PDFs-6366f1?style=flat-square)
+![Reports](https://img.shields.io/badge/reports-98_PDFs-6366f1?style=flat-square)
 ![White Glove](https://img.shields.io/badge/white_glove-3_live_demos-f59e0b?style=flat-square)
 ![Data Points](https://img.shields.io/badge/data_points-4.3M%2B-3b82f6?style=flat-square)
-![Verticals](https://img.shields.io/badge/verticals-9_industries-10b981?style=flat-square)
+![Verticals](https://img.shields.io/badge/verticals-10_industries-10b981?style=flat-square)
 ![Cadences](https://img.shields.io/badge/cadences-weekly_|_monthly_|_quarterly-8b5cf6?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)
 
@@ -28,7 +28,7 @@ Each demo includes a proposal page with engagement terms and a direct cost compa
 
 ---
 
-## Report catalog — 96 PDFs
+## Report catalog — 98 PDFs
 
 ### Enterprise showcase — production-quality client reports
 
@@ -52,7 +52,7 @@ Branded reports for fictional enterprise clients demonstrating what a delivered 
 
 Browse: [`reports/weekly/`](reports/weekly/) · [`reports/monthly/`](reports/monthly/) · [`reports/quarterly/`](reports/quarterly/)
 
-### Industry deep-dives (39 reports)
+### Industry deep-dives (41 reports)
 
 | Vertical | Reports | Examples |
 |----------|---------|---------|
@@ -60,7 +60,8 @@ Browse: [`reports/weekly/`](reports/weekly/) · [`reports/monthly/`](reports/mon
 | Crypto | 7 | Portfolio risk, DeFi metrics, market structure |
 | Sports & Betting | 6 | Odds modeling, spread accuracy, league analysis |
 | Finance | 5 | Macro, equity performance, sector rotation |
-| Solar | 5 | Resource screening, generation estimates, ROI |
+| Solar | 6 | Resource screening, generation estimates, real trailing-365-day irradiance economics, ROI |
+| Ecommerce | 1 | RFM segmentation, cohort retention, CAC by channel, promo margin leak |
 | Compliance | 4 | XBRL analysis, regulatory filing patterns |
 | Gaming | 2 | Player engagement, retention, pricing |
 | Sports | 1 | Premier League snapshot |
