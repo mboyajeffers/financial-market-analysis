@@ -1,11 +1,8 @@
 # Mboya Jeffers — Market Intelligence Reports
 
 ![CI](https://github.com/mboyajeffers/financial-market-analysis/actions/workflows/ci.yml/badge.svg)
-![Reports](https://img.shields.io/badge/reports-98_PDFs-6366f1?style=flat-square)
-![White Glove](https://img.shields.io/badge/white_glove-3_live_demos-f59e0b?style=flat-square)
 ![Data Points](https://img.shields.io/badge/data_points-4.3M%2B-3b82f6?style=flat-square)
-![Verticals](https://img.shields.io/badge/verticals-10_industries-10b981?style=flat-square)
-![Cadences](https://img.shields.io/badge/cadences-weekly_|_monthly_|_quarterly-8b5cf6?style=flat-square)
+![White Glove](https://img.shields.io/badge/white_glove-3_live_demos-2f6f62?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)
 
 96 branded intelligence reports across 9 industry verticals — built from live public API data, rendered as institutional-quality PDFs, with every number traceable to its source.
