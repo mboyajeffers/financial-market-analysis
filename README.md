@@ -72,14 +72,13 @@ Six executive summaries (Federal Awards, SEC XBRL, Aviation, Healthcare, Cyberse
 
 Browse: [`reports/summaries/`](reports/summaries/) · [`reports/methodology/`](reports/methodology/)
 
-### Q1/Q2 2026 additions (4 reports)
+### Q2 2026 additions
 
 | Report | Client Profile | Vertical |
 |--------|----------------|----------|
-| [WealthBridge Q1 2026 Market Intelligence](reports/q1_2026/WealthBridge_Q1_2026_Market_Intelligence.pdf) | Fictional client | Multi-sector |
-| [StreamCore Q1 2026 Media Intelligence](reports/q1_2026/StreamCore_Q1_2026_Media_Intelligence.pdf) | Fictional client | Media |
-| [PayLayer Q1 2026 Crypto Intelligence](reports/q1_2026/PayLayer_Q1_2026_Crypto_Intelligence.pdf) | Fictional client | Crypto |
 | [Q2 2026 Market Intelligence Report](reports/market-intelligence/Q2_2026_Market_Intelligence_Report.pdf) | — | Multi-sector |
+
+*(The Q1 2026 WealthBridge/StreamCore/PayLayer set has been taken down for a data and branding refresh — back shortly.)*
 
 See also: [**CAPABILITIES.md**](CAPABILITIES.md) — vertical-by-vertical breakdown of what the platform covers.
 
