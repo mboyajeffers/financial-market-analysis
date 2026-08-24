@@ -29,15 +29,7 @@ Each demo includes a proposal page with engagement terms and a direct cost compa
 
 ### Enterprise showcase — production-quality client reports
 
-Branded reports for fictional enterprise clients demonstrating what a delivered product looks like:
-
-| Client | Vertical | Reports |
-|--------|----------|---------|
-| **Apex Capital Advisors** | Finance | [Quarterly](showcase/finance/Apex_Capital_Q3_2025_Comprehensive_Analysis.pdf) · [Monthly](showcase/finance/Apex_Capital_Monthly_Portfolio_Review_2025-11.pdf) · [Weekly](showcase/finance/Apex_Capital_Weekly_Market_Pulse_2025-11-21.pdf) |
-| **Meridian Digital Assets** | Crypto | [Quarterly](showcase/crypto/Meridian_Crypto_Q3_2025_Portfolio_Analysis.pdf) · [Monthly](showcase/crypto/Meridian_Crypto_Monthly_Review_2025-11.pdf) · [Weekly](showcase/crypto/Meridian_Crypto_Weekly_Snapshot_2025-11-21.pdf) |
-| **Sentinel Energy Partners** | Energy | [Monthly](showcase/energy/Sentinel_Energy_Monthly_Production_2025-11.pdf) |
-| **Baseline Sports Analytics** | Sports | [Weekly](showcase/sports/Baseline_Sports_Weekly_Intelligence_2025-11-21.pdf) |
-| **Platform Overview** | All | [Showcase Index](showcase/Enterprise_Showcase_Index.pdf) · [Capabilities](showcase/Data_Platform_Capabilities.pdf) |
+*(Temporarily offline for a data and branding refresh — back shortly. Was: branded reports for fictional enterprise clients — Apex Capital Advisors (finance), Meridian Digital Assets (crypto), Sentinel Energy Partners (energy), Baseline Sports Analytics (sports), plus a platform overview.)*
 
 ### Recurring intelligence (23 reports)
 

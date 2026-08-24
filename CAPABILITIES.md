@@ -25,10 +25,7 @@ Vertical-by-vertical breakdown of data sources, KPIs, and report outputs.
 - Risk-adjusted return vs. BTC benchmark
 - Weekly snapshot + monthly deep-dive + quarterly comprehensive review
 
-**Sample reports:**
-- [Q3 2025 Portfolio Analysis](reports/crypto/Meridian_Crypto_Q3_2025_Portfolio_Analysis.pdf)
-- [Weekly Snapshot 2025-11-21](reports/crypto/Meridian_Crypto_Weekly_Snapshot_2025-11-21.pdf)
-- [Monthly Review 2025-11](reports/crypto/Meridian_Crypto_Monthly_Review_2025-11.pdf)
+**Sample reports:** temporarily offline for a refresh — back shortly.
 
 ---
 
@@ -51,10 +48,7 @@ Vertical-by-vertical breakdown of data sources, KPIs, and report outputs.
 - Monthly portfolio review (attribution, risk, outlook)
 - Quarterly comprehensive (full factor analysis, drawdown periods, rebalancing recommendations)
 
-**Sample reports:**
-- [Weekly Market Pulse 2025-11-21](reports/finance/Apex_Capital_Weekly_Market_Pulse_2025-11-21.pdf)
-- [Monthly Portfolio Review 2025-11](reports/finance/Apex_Capital_Monthly_Portfolio_Review_2025-11.pdf)
-- [Q3 2025 Comprehensive Analysis](reports/finance/Apex_Capital_Q3_2025_Comprehensive_Analysis.pdf)
+**Sample reports:** temporarily offline for a refresh — back shortly.
 
 ---
 
@@ -78,8 +72,7 @@ Vertical-by-vertical breakdown of data sources, KPIs, and report outputs.
 - Operational efficiency metrics
 - Forward-looking demand indicators
 
-**Sample report:**
-- [Monthly Production Report 2025-11](reports/energy/Sentinel_Energy_Monthly_Production_2025-11.pdf)
+**Sample report:** temporarily offline for a refresh — back shortly.
 
 ---
 
@@ -183,7 +176,6 @@ Vertical-by-vertical breakdown of data sources, KPIs, and report outputs.
 
 ## Platform Overview
 
-For the full platform capabilities summary, see:
-- [Data Platform Capabilities PDF](reports/platform/Data_Platform_Capabilities.pdf)
+Full platform capabilities PDF: temporarily offline for a refresh — back shortly.
 
 Back to [README](README.md)
